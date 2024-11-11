@@ -12,16 +12,9 @@ This project is a command-line interface (CLI) application to manage tasks. It a
 
 ## How to Run the Application
 
-To run the application, execute the following command in your terminal:
-
-```bash
-python task_manager.py
-
-**Steps to Run:**
 1. Open a terminal or command prompt.
 2. Navigate to the task_manager directory where the task_manager.py file is located.
 3. Run the application using the following command:
 
+```bash
 python task_manager.py
-
-
