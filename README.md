@@ -12,9 +12,33 @@ This project is a command-line interface (CLI) application to manage tasks. It a
 
 ## How to Run the Application
 
-1. Open a terminal or command prompt.
-2. Navigate to the task_manager directory where the task_manager.py file is located.
-3. Run the application using the following command:
+# Steps to Log in to GitHub and Access the Terminal via Codespaces
 
-```bash
+1. Log In to GitHub:
+
+    Visit GitHub and log in using your credentials.
+
+2. Navigate to the Repository:
+
+    Open the repository containing this project.
+
+3. Start a Codespace:
+
+    Click the Code button (green) on the repository page.
+    Select the Codespaces tab.
+    Click on New Codespace. This will open a development environment directly in your browser.
+
+4. Access the Terminal:
+
+ * Once the Codespace loads, access the terminal by:
+        ** Clicking View > Terminal in the top menu.
+        ** Or using the shortcut: Ctrl + \ (Windows/Linux) or Cmd + \ (Mac).
+
+5. Run the Application:
+
+    Use the terminal to execute the project:
+
+bash
+
 python task_manager.py
+
