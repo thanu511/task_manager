@@ -38,7 +38,10 @@ This project is a command-line interface (CLI) application to manage tasks. It a
 
     Use the terminal to execute the project:
 
-bash
 
-python task_manager.py
+    python task_manager.py
 
+
+**CLI Application Login Credentials**
+E-mail : test@gmail.com
+Password: Test@1234
