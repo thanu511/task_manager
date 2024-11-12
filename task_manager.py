@@ -1,6 +1,11 @@
 import json
 import os
 
+# Define dummy login credentials
+DUMMY_EMAIL = "test@gmail.com"
+DUMMY_PASSWORD = "Test@1234"
+
+# Task class and functions remain the same
 class Task:
     def __init__(self, id, title, completed=False):
         self.id = id
@@ -11,7 +16,6 @@ class Task:
         status = "Completed" if self.completed else "Pending"
         return f"ID: {self.id}, Title: '{self.title}', Status: {status}"
 
-# List to hold all tasks
 tasks = []
 
 def add_task(id, title):
@@ -59,7 +63,24 @@ def load_tasks():
     else:
         print("No existing tasks found. Starting with an empty task list.")
 
+# New function for login
+def login():
+    print("Please log in to access the Task Manager.")
+    email = input("Enter email: ")
+    password = input("Enter password: ")
+
+    if email == DUMMY_EMAIL and password == DUMMY_PASSWORD:
+        print("Login successful.")
+        return True
+    else:
+        print("Invalid credentials. Access denied.")
+        return False
+
+# Main function with login check
 def main():
+    if not login():
+        return  # Exit if login fails
+    
     load_tasks()
     while True:
         print("\nTask Manager CLI")
